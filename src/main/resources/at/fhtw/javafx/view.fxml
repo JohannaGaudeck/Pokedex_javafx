@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="407.0" prefWidth="534.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.fhtw.javafx.BagController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Button fx:id="btn_caught" layoutX="20.0" layoutY="164.0" mnemonicParsing="false" onAction="#onCaught" prefHeight="44.0" prefWidth="219.0" text="Caught" />
+      <Label fx:id="lbl_name" layoutX="14.0" layoutY="21.0" text="Name" />
+      <Label fx:id="lbl_level" layoutX="14.0" layoutY="49.0" text="Level" />
+      <TextField fx:id="tf_name" layoutX="59.0" layoutY="17.0" />
+      <TextField fx:id="tf_level" layoutX="59.0" layoutY="45.0" />
+      <Label fx:id="lbl_bag" layoutX="283.0" layoutY="13.0" text="Bag" />
+      <TextArea fx:id="ta_bag" layoutX="283.0" layoutY="30.0" prefHeight="367.0" prefWidth="239.0" />
+      <TextField fx:id="tf_hp" layoutX="59.0" layoutY="76.0" />
+      <Label layoutX="20.0" layoutY="80.0" text="hp" />
+      <TextField fx:id="tf_exp" layoutX="60.0" layoutY="112.0" />
+      <Label layoutX="20.0" layoutY="116.0" text="exp" />
+      <Button fx:id="btn_Remove" layoutX="20.0" layoutY="214.0" mnemonicParsing="false" onAction="#onRemove" prefHeight="44.0" prefWidth="105.0" text="Remove" />
+      <Button fx:id="btn_Clear" layoutX="135.0" layoutY="214.0" mnemonicParsing="false" onAction="#onClear" prefHeight="44.0" prefWidth="105.0" text="Clear" />
+   </children>
+</Pane>
